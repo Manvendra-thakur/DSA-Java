@@ -7,7 +7,8 @@ class Solution {
             if(nums[i]<0){
                 ans[negindex] = nums[i];
                 negindex += 2;
-            } else {
+            }
+            else {
                 ans[posindex] = nums[i];
                 posindex += 2;
             }
