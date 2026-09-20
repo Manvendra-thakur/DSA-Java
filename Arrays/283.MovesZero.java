@@ -9,6 +9,7 @@ class Solution {
                 cnt++;
             }
         }
+        
         for(int j = 0;j<cnt;j++){
             nums[j]= temp[j];
         }
