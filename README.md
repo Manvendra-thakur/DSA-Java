@@ -1,2 +1,2 @@
 # DSA-Java
-My Dsa solutions in java
+ Dsa problems solutions in java
