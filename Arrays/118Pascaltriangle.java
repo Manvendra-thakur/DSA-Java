@@ -5,6 +5,7 @@ class Solution {
 
         rowAns.add(1);
         for(int col = 1;col<rows;col++){
+            
             prev = prev * (rows - col);
             prev = prev / col;
             rowAns.add((int)prev);
@@ -13,6 +14,7 @@ class Solution {
 
     }
     public List<List<Integer>> generate(int numRows) {
+        
         List<List<Integer>> ans = new ArrayList<>();
         for(int rows = 1;rows<=numRows;rows++){
             ans.add(generateRow(rows));
