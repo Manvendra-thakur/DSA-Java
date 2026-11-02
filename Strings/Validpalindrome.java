@@ -1,4 +1,4 @@
-package Strings;
+//package Strings;
 
 public class Validpalindrome {
     public boolean isPalindrome(String s) {
