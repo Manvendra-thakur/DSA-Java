@@ -8,8 +8,8 @@ class Solution {
                 first = mid;
                 high = mid -1;
                 
-
             }
+                
             else if(nums[mid]<target){
                 low = mid + 1;
 
